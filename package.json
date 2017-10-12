@@ -1,0 +1,25 @@
+{
+  "name": "apollo-client-preset-ts-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-client-preset": "^0.2.0-beta.8",
+    "react": "^16.0.0",
+    "react-apollo": "^2.0.0-beta.0",
+    "react-dom": "^16.0.0",
+    "react-scripts-ts": "2.7.0",
+    "redux": "^3.7.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^21.1.2",
+    "@types/node": "^8.0.34",
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1"
+  }
+}
