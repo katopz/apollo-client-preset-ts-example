@@ -7,7 +7,7 @@ import { ApolloProvider } from 'react-apollo';
 
 import App from './App';
 
-const GRAPHQL_END_POINT = 'YOUR_GRAPHQL_END_POINT';
+const GRAPHQL_END_POINT = 'https://api.graph.cool/simple/v1/cixos23120m0n0173veiiwrjr';
 
 const client = new ApolloClient({
   link: new HttpLink({ uri: GRAPHQL_END_POINT }),
